@@ -1,0 +1,177 @@
+{
+  "workbench.startupEditor": "none",
+  "atomKeymap.promptV3Features": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.important": "warning",
+  "scss.lint.duplicateProperties": "warning",
+  "workbench.statusBar.visible": true,
+  "editor.renderControlCharacters": false,
+  "window.restoreWindows": "none",
+  "window.openFoldersInNewWindow": "on",
+  "editor.tokenColorCustomizations": {
+    "comments": "#555"
+  },
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "workbench.colorCustomizations": {
+    // "editorCursor.foreground": "#682e86",
+    // "editorCursor.background": "#00FFFF",
+    "editorCursor.foreground": "#00FFFF",
+    "editorCursor.background": "#000",
+    "editor.selectionBackground": "#999",
+    // "editorWhitespace.foreground": "#666",
+    // "editor.background": "#000",
+    "minimap.background": "#00000055"
+  },
+  "editor.renderWhitespace": "boundary",
+  "gitlens.keymap": "alternate",
+  "gitlens.codeLens.recentChange.command": "gitlens.showQuickCommitDetails",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.snippetSuggestions": "top",
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.preferences": {
+    "sass.autoInsertVendorPrefixes": true,
+    "css.gradient.fallback": true
+  },
+  "emmet.includeLanguages": {
+    "jsx": "html",
+    "javascript": "javascriptreact",
+    "sass": "css",
+    "html": "html",
+    "pug": "html",
+    "scss": "css"
+  },
+  "editor.letterSpacing": 0.5,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.format": "${author}, ${agoOrDate}",
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.statusBar.alignment": "left",
+  "window.title": "${activeEditorMedium}${dirty}${separator}${rootName}",
+  "window.zoomLevel": -3,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/www-tuftandneedle-com/**": true,
+    "**/dotcom/**": true
+  },
+  "gitlens.defaultDateStyle": "absolute",
+  "editor.fontSize": 24,
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.hover.delay": 1000,
+  "editor.multiCursorModifier": "alt",
+  "indenticator.color.dark": "#ffffff",
+  "indenticator.inner.color.dark": "#fff",
+  "gitlens.views.repositories.branches.layout": "list",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.sideBar.location": "right",
+  "files.insertFinalNewline": true,
+  "editor.minimap.enabled": false,
+  "editor.minimap.scale": 1,
+  "editor.minimap.size": "proportional",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "task.autoDetect": "off",
+  "files.trimTrailingWhitespace": true,
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Rebecca Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+    {
+      "name": "T&N Mint",
+      "value": "#60edb3"
+    }
+  ],
+  "editor.cursorStyle": "block",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.smoothScrolling": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "terminal.integrated.cursorBlinking": true,
+  "workbench.colorTheme": "SynthWave '84",
+  "synthwave84.brightness": 1.0,
+  "peacock.darkenLightenPercentage": 1,
+  "peacock.surpriseMeOnStartup": true,
+  "emmet.excludeLanguages": [
+    "markdown"
+  ],
+  "html-css-class-completion.enableEmmetSupport": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.cursorBlinking": "expand",
+  "scss.lint.validProperties": [
+    "composes"
+  ],
+  "html.format.endWithNewline": true,
+  "editor.accessibilitySupport": "off",
+  "editor.linkedEditing": true,
+  "editor.lineHeight": 36,
+  "importCost.largePackageColor": "#fffff",
+  "importCost.mediumPackageColor": "#aaaaaa",
+  "importCost.smallPackageColor": "#555555",
+  "workbench.activityBar.visible": false,
+}
